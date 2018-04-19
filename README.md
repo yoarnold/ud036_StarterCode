@@ -7,7 +7,7 @@ This program takes in movie titles, poster art, and trailers and displays them o
 1. Open **entertainment.py** and assign instances of the Movie class into variables.
 
 ```
-example_movie = media.Movie(title, poster_image_url, trailer_youtube_url)
+example_movie1 = media.Movie("title", "url to the poster image", "url to the youtube trailer")
 ```
 
 2. Add each movie variable into the movies list
