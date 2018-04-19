@@ -16,4 +16,11 @@ example_movie1 = media.Movie("title", "url to the poster image", "url to the you
 movies = [example_movie1, example_movie2, example_movie3]
 ```
 
-3. Run program
+3. The list variable, `movies` is then taken by the following functions:
+
+```
+fresh_tomatoes.create_movie_tiles_content(movies)
+fresh_tomatoes.open_movies_page(movies)
+```
+
+When run, these funcitons will create the movie tiles and open up the page in your web browser.
